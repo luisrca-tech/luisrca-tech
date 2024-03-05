@@ -1,7 +1,7 @@
 ## Bem-vindo(a) ao perfil Luisrca-tech 😁
 
  <div>
-   <a href="https://github.com/luisrca-tech">
+   <a href="https://github.com/luisrca-tech" />
    ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=luisrca-tech&theme=dark&show_icons=true)
 
 </div>
