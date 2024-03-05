@@ -2,7 +2,7 @@
 
  <div>
    <a href="https://github.com/luisrca-tech">
-   ![Fraga GitHub stats](https://github-readme-stats.vercel.app/api?username=luisrca-tech&show_icons=true&theme=dracula&count_private=true)
+   ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
 
 </div>
 
