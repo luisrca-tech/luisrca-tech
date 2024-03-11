@@ -24,6 +24,7 @@
   <a target="_blank" href="https://instagram.com/luis_felip" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" ></a>
  <a target="_blank" href="https://discord.gg/83d46hyQ" target="_blank" ><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a target="_blank" href = "mailto:luisrochacruzalves@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a target="_blank" href = "https://www.linkedin.com/in/luis-felipe-da-rocha-a4a331295/"><img src="https://img.shields.io/badge/linkedin%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
  
  
 </div>
