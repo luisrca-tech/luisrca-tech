@@ -1,6 +1,15 @@
 
 
 
+<!-- STATISTICS -->
+<div style="display:grid;align-items:center;justify-content:center">
+  
+  <img style="height:100%;width:49%;max-width: 100%; max-height: 164px" src="https://github-readme-stats.vercel.app/api?username=digoarthur&theme=tokyonight&count_private=true&show_icons=true&include_all_commits=true"/>
+<img style="height:100%;width:49%;max-width: 10%" src="https://github-readme-streak-stats.herokuapp.com/?user=digoarthur&theme=tokyonight&hide_border=true"/>
+</div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=100:9956F6,0:FF00B8&height=120&section=footer"/>
 
 
@@ -97,18 +106,6 @@ Work Stacks:</h2>
 
 
 <h2 align='left'>#Github: :octocat:⚙️</h2>
-
-
-
-
-<!-- STATISTICS -->
-<div style="display:grid;align-items:center;justify-content:center">
-  
-  <img style="height:100%;width:49%;max-width: 100%; max-height: 164px" src="https://github-readme-stats.vercel.app/api?username=digoarthur&theme=tokyonight&count_private=true&show_icons=true&include_all_commits=true"/>
-<img style="height:100%;width:49%;max-width: 10%" src="https://github-readme-streak-stats.herokuapp.com/?user=digoarthur&theme=tokyonight&hide_border=true"/>
-</div>
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
 
 
 
