@@ -1,16 +1,16 @@
 
 
+<h2 align='left'>#Github: :octocat:⚙️</h2>
 
 <!-- STATISTICS -->
 <div style="display:grid;align-items:center;justify-content:center">
   
-  <img style="height:100%;width:49%;max-width: 100%; max-height: 164px" src="https://github-readme-stats.vercel.app/api?username=digoarthur&theme=tokyonight&count_private=true&show_icons=true&include_all_commits=true"/>
-<img style="height:100%;width:49%;max-width: 10%" src="https://github-readme-streak-stats.herokuapp.com/?user=digoarthur&theme=tokyonight&hide_border=true"/>
+  <img style="height:100%;width:49%;max-width: 100%; max-height: 164px" src="https://github-readme-stats.vercel.app/api?username=luisrca-tech&theme=tokyonight&count_private=true&show_icons=true&include_all_commits=true"/>
+<img style="height:100%;width:49%;max-width: 10%" src="https://github-readme-streak-stats.herokuapp.com/?user=luisrca-tech&theme=tokyonight&hide_border=true"/>
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=100:9956F6,0:FF00B8&height=120&section=footer"/>
 
 
 <!---
@@ -26,8 +26,8 @@ font: https://dev.to/kyechan99/make-your-profile-readme-colorful-3gag
 <br/>
 <p align="center" color="grey" size="14px">Welcome to my GitHub! :octocat:⤵️</p>
 <p align="center">
-    <a href="mailto:digo.arthur@hotmail.com"><img src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/b0088fcf-29ed-457a-b298-32c396c34251" alt="HotMailIcon"    width="50" height="50" aling="center"><img/></a>
-    <a href="https://www.linkedin.com/in/digoarthur/"><img src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/4a6f6bb1-3664-43e5-8b4f-fec9111f812a"     alt="LinkedinIcon" width="50" height="50" aling="center"><img/></a>
+    <a href="mailto:luisrochacruzalves@gmail.com"><img src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/b0088fcf-29ed-457a-b298-32c396c34251" alt="HotMailIcon"    width="50" height="50" aling="center"><img/></a>
+    <a href="https://www.linkedin.com/in/luis-felipe-da-rocha-a4a331295/"><img src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/4a6f6bb1-3664-43e5-8b4f-fec9111f812a"     alt="LinkedinIcon" width="50" height="50" aling="center"><img/></a>
 <p>
 
 
@@ -44,21 +44,10 @@ About me:</h2>
 
 <div>
 
-Hi, my name is Diego Arthur.
-I'm a developer with experience in Frontend and specialized in ReactJS, but I'm specializing in Backend using NodeJS. Also, now I’m perfecting my English to get an international opportunity.
-    <br/>
-     <br/>
-Passionate about teaching... At the University I was Researcher, programming Monitor, I taught Mathematics classes in a community project[^1], I am Author of a programming book[^2] , and currently enthusiastic about Pentest and Cybersecurity. 
+Hello, my name is Luis and at the age of 20, I discovered the world of technology. I have always been passionate about computers and have been very involved since I was young, but I never delved deeply into it. At 20, after returning to Brazil after living in Europe for 2 years, I decided to dedicate 100% of my time to learning programming. Today, I am 21 years old and have developed some skills in the field.
 
-I like playing Indie games, I love cinema, travel and taste food.
-
-<p align='left'>📍 🇵🇹 Living: Portugal;<br/>  👨‍🎓 🇧🇷 University: <a href="https://www.ufsj.edu.br">UFSJ - University Federal São João del-Rei </a>, <a href="https://pt.wikipedia.org/wiki/Ouro_Branco_(Minas_Gerais)">Ouro Branco- MG.</a> </p>
+<p align='left'>📍 🇵🇹 Living: Brasil;<br/>  👨‍🎓 🇧🇷 University: <a href="https://www.ead.senac.br/graduacao/tecnologia-em-analise-e-desenvolvimento-de-sistemas/">Senac - ADS </a>, <a href="https://pt.wikipedia.org/wiki/Goi%C3%A2nia">Goiânia - GO</a> </p>
 </div>
-
-
-[^1]: [Community Project - Cursinho Popular](https://www.instagram.com/integrar.cursinho/)
-[^2]: [Programming Book - R básico (Estudando o Ambiente R) (Portuguese Edition)](https://www.amazon.com/básico-Estudando-Ambiente-Portuguese/dp/6500515994) 
-
 
 
  <br/>
@@ -70,15 +59,6 @@ I like playing Indie games, I love cinema, travel and taste food.
 
 <h2><img height="32" title="NodeJS" alt="NodeJS" src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/01b5a690-a7d9-4d16-bd57-1aa10ef45c90"/>
 Work Stacks:</h2>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -100,14 +80,6 @@ Work Stacks:</h2>
   ------
 
 
-<br/>
-  <br/>
-
-
-
-<h2 align='left'>#Github: :octocat:⚙️</h2>
-
-
-
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=100:9956F6,0:FF00B8&height=120&section=footer"/>
 
 
