@@ -80,9 +80,9 @@ Work Stacks:</h2>
   <h2><img height="32" title="NodeJS" alt="NodeJS" src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/01b5a690-a7d9-4d16-bd57-1aa10ef45c90"/>
 Better Works & Pessoal Projects</h2>
 
-  <a href="https://adams-v2.vercel.app/">●• Adams - Freelance</a> 
-  <a href="https://projeto-t-10.vercel.app/painel-administrativo/autenticacao/login">●• Projeto-T10 - Pessoal Project</a>
-  <a href="https://crm-landing-page-one.vercel.app/">●• Attios CRM - landing page</a>
+  <a target="_blank" href="https://adams-v2.vercel.app/">●• Adams - Freelance</a> 
+  <a target="_blank" href="https://projeto-t-10.vercel.app/painel-administrativo/autenticacao/login">●• Projeto-T10 - Pessoal Project</a>
+  <a target="_blank" href="https://crm-landing-page-one.vercel.app/">●• Attios CRM - landing page</a>
 
   ------
 
