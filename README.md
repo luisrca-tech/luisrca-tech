@@ -82,7 +82,7 @@ Better Works & Pessoal Projects</h2>
 
   <a target="_blank" href="https://adams-v2.vercel.app/">●• Adams - Freelance</a> 
   <a target="_blank" href="https://projeto-t-10.vercel.app/painel-administrativo/autenticacao/login">●• Projeto-T10 - Pessoal Project</a>
-  <a target="_blank" href="https://crm-landing-page-one.vercel.app/">●• Attios CRM - landing page</a>
+  <a target="_blank" href="https://crm-landing-page-one.vercel.app/">●• Attios CRM - Pessoal Project</a>
 
   ------
 
