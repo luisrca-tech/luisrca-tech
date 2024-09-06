@@ -39,7 +39,6 @@ font: https://dev.to/kyechan99/make-your-profile-readme-colorful-3gag
 
 <h2><img height="32" title="NodeJS" alt="NodeJS" src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/d484d7c4-8dba-4f68-b52b-b09c6f08ec17"/>
 About me:</h2>
-<img align="right" width="250px" src="https://github.com/DIGOARTHUR/digoarthur/assets/59892368/9ba0eb3f-f593-4ad3-9ece-6eeb24abf19f" />
 
 
 <div>
