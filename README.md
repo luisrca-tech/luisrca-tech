@@ -45,7 +45,7 @@ About me:</h2>
 
 Hello, my name is Luis and at the age of 20, I discovered the world of technology. I have always been passionate about computers and have been very involved since I was young, but I never delved deeply into it. At 20, after returning to Brazil after living in Europe for 2 years, I decided to dedicate 100% of my time to learning programming. Today, I am 21 years old and have developed some skills in the field.
 
-<p align='left'>📍 🇵🇹 Living: Brasil;<br/>  👨‍🎓 🇧🇷 University: <a href="https://www.ead.senac.br/graduacao/tecnologia-em-analise-e-desenvolvimento-de-sistemas/">Senac - ADS </a>, <a href="https://pt.wikipedia.org/wiki/Goi%C3%A2nia">Goiânia - GO</a> </p>
+<p align='left'>📍 🇵🇹-br Living: Brasil;<br/>  👨‍🎓 🇧🇷 University: <a href="https://www.ead.senac.br/graduacao/tecnologia-em-analise-e-desenvolvimento-de-sistemas/">Senac - ADS </a>, <a href="https://pt.wikipedia.org/wiki/Goi%C3%A2nia">Goiânia - GO</a> </p>
 </div>
 
 
