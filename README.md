@@ -52,7 +52,7 @@ Hello, my name is Luis and at the age of 20, I discovered the world of technolog
 Better Works & Pessoal Projects</h2>
 
   <a target="_blank" href="https://adams-v2.vercel.app/">●• Adams - Freelance</a> 
- <div style="display:flex;flex-direction: column;align-items:center;justify-content:center;gap:0.5rem">
+ <div style="display:flex;flex-direction: column;gap:0.5px">
   <a target="_blank" href="https://projeto-t-10.vercel.app/painel-administrativo/autenticacao/login">●• Projeto-T10 - Pessoal Project</a>
   <a target="_blank" href="https://crm-landing-page-one.vercel.app/">●• Attios CRM - Pessoal Project</a>
   <a target="_blank" href="https://epictetus-blog-ten.vercel.app/">●• Epictetus - Sanity Blog - Pessoal Project</a>
