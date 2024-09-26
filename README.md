@@ -1,7 +1,7 @@
 
 
-<h2 align='left'>#Github: :octocat:⚙️</h2>
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
 <!-- STATISTICS -->
 <div style="display:grid;align-items:center;justify-content:center">
   
@@ -9,7 +9,6 @@
 <img style="height:100%;width:49%;max-width: 10%" src="https://github-readme-streak-stats.herokuapp.com/?user=luisrca-tech&theme=tokyonight&hide_border=true"/>
 </div>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
 
 
 
