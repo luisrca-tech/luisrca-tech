@@ -40,7 +40,11 @@ About me:</h2>
 
 <div>
 
-Hello, my name is Luis and at the age of 20, I discovered the world of technology. I have always been passionate about computers and have been very involved since I was young, but I never delved deeply into it. At 20, after returning to Brazil after living in Europe for 2 years, I decided to dedicate 100% of my time to learning programming. Today, I am 21 years old and have developed some skills in the field.
+👨‍💻 Hi, my name is Luís, and I’m a Full Stack Developer focused on React and Next.js. My main expertise lies in creating robust digital solutions, from designing responsive and functional interfaces to integrating systems with structured databases 🗄️. I love transforming design concepts 🎨, such as those developed in Figma, into real-world applications, optimizing the development process and providing high-quality user experiences 🔥.
+
+🚀 I’m looking to kickstart my professional journey in web application development, whether in front-end or full stack, with the goal of expanding my experience and contributing to innovative projects. I’m passionate about learning new concepts and staying up to date with the latest technology trends 🌐.
+
+⚡ Technology has always been a part of my daily life, and the suggestion from my family encouraged me to dive deeper into software development. In programming, I found a way to apply my passion for solving problems and my affinity with computers 💡, especially in web application development, where I can create solutions that make a difference 🎯.
 
 <p align='left'>📍 Living: Brasil;<br/>  👨‍🎓 🇧🇷 University: <a href="https://www.ead.senac.br/graduacao/tecnologia-em-analise-e-desenvolvimento-de-sistemas/">Senac - ADS </a>, <a href="https://pt.wikipedia.org/wiki/Goi%C3%A2nia">Goiânia - GO</a> </p>
 </div>
