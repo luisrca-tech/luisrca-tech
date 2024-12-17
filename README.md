@@ -1,6 +1,3 @@
-
-
-
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:542F88,100:880062&height=120&section=footer"/>
 <!-- STATISTICS -->
 <div style="display:grid;align-items:center;justify-content:center">
