@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-labelledby="t d">
+<title id="t">Production request pipeline</title>
+<desc id="d">A request flows from client to a Hono edge API, into a RAG pipeline backed by pgvector with a semantic cache, out to a multi-provider LLM router, and back to the client. AI latency and cost both reduced by 66 percent.</desc>
+
+<defs>
+  <radialGradient id="pReq" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity=".85"/>
+    <stop offset="45%" stop-color="#38BDF8" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pRes" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#4ADE80" stop-opacity=".8"/>
+    <stop offset="45%" stop-color="#4ADE80" stop-opacity=".2"/>
+    <stop offset="100%" stop-color="#4ADE80" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="tail" x1="100%" y1="0%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity=".55"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="barG" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A78BFA"/>
+    <stop offset="100%" stop-color="#F472B6"/>
+  </linearGradient>
+  <filter id="bloom" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#1B2434"/>
+  </pattern>
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .ttl{font-size:12.5px;font-weight:700;letter-spacing:.6px;fill:#E6EBF4}
+    .sub{font-size:9.5px;letter-spacing:.2px;fill:#8391AB}
+    .cap{font-size:9.5px;letter-spacing:1.3px;fill:#7684A0}
+    .prv{font-size:9.5px;letter-spacing:.3px;fill:#C6D0E2}
+    .val{font-size:10.5px;font-weight:700;letter-spacing:.3px;fill:#C4B5FD}
+    .lbl{font-size:9px;letter-spacing:1.1px;fill:#6C7A93}
+    .node{fill:#10151F;stroke:#232C40;stroke-width:1}
+    .link{fill:none;stroke:#2B3549;stroke-width:1.4;stroke-linecap:round}
+    .flow{stroke-dasharray:5 9;animation:dash 1.5s linear infinite}
+    .glow{opacity:0}
+
+    .g1{animation:gClient 6s linear infinite}
+    .g2{animation:gEdge   6s linear infinite}
+    .g3{animation:gRag    6s linear infinite}
+    .g4{animation:gCache  6s linear infinite}
+    .g5{animation:gRouter 6s linear infinite}
+    .req{animation:req 6s linear infinite}
+    .res{animation:res 6s linear infinite}
+    .p1{animation:prov 6s linear infinite}
+    .p2{animation:prov 6s linear infinite -4s}
+    .p3{animation:prov 6s linear infinite -2s}
+    .bar{animation:grow 1.2s cubic-bezier(.2,.85,.25,1) .35s both}
+    .b1{transform-origin:140px 304px}
+    .b2{transform-origin:536px 304px}
+
+    @keyframes dash{to{stroke-dashoffset:-14}}
+    @keyframes gClient{0%,5%{opacity:1}10%,71%{opacity:0}75%,80%{opacity:1}86%,100%{opacity:0}}
+    @keyframes gEdge{0%,2%{opacity:0}4.5%,12%{opacity:1}16%,100%{opacity:0}}
+    @keyframes gRag{0%,15%{opacity:0}17.5%,25%{opacity:1}29%,100%{opacity:0}}
+    @keyframes gCache{0%,18%{opacity:0}21%,28%{opacity:1}32%,100%{opacity:0}}
+    @keyframes gRouter{0%,28%{opacity:0}30.5%,39%{opacity:1}43%,100%{opacity:0}}
+    @keyframes prov{0%,32%{opacity:1}34%,100%{opacity:.26}}
+    @keyframes req{
+      0%{transform:translateX(0);opacity:0}
+      1.5%{opacity:1}
+      37%{opacity:1}
+      40%{transform:translateX(570px);opacity:0}
+      100%{transform:translateX(570px);opacity:0}
+    }
+    @keyframes res{
+      0%,43.3%{transform:translate(0,0);opacity:0}
+      44.7%{transform:translate(40px,0);opacity:1}
+      49.7%{transform:translate(40px,144px);opacity:1}
+      72.6%{transform:translate(-615px,144px);opacity:1}
+      76.7%{transform:translate(-615px,28px);opacity:1}
+      78.5%{transform:translate(-615px,28px);opacity:0}
+      100%{transform:translate(-615px,28px);opacity:0}
+    }
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+    @media (prefers-reduced-motion:reduce){
+      .flow,.g1,.g2,.g3,.g4,.g5,.req,.res,.p1,.p2,.p3,.bar{animation:none}
+      .glow{opacity:.5}
+      .req,.res{opacity:0}
+    }
+  </style>
+</defs>
+
+<rect x=".5" y=".5" width="879" height="335" rx="14" fill="#080B12" stroke="#1C2434"/>
+<rect x="1" y="1" width="878" height="334" rx="13" fill="url(#grid)"/>
+
+<g class="m">
+  <circle cx="40" cy="22.5" r="3" fill="#A78BFA"/>
+  <text x="54" y="26" class="cap">PRODUCTION REQUEST PIPELINE</text>
+  <text x="844" y="26" class="cap" text-anchor="end">multi-tenant · RAG · multi-LLM</text>
+</g>
+
+<!-- connectors (below pulses, below nodes) -->
+<g>
+  <path class="link" d="M126 128 H176"/>
+  <path class="link flow" d="M126 128 H176" stroke="#4C5A75"/>
+  <path class="link" d="M306 128 H356"/>
+  <path class="link flow" d="M306 128 H356" stroke="#4C5A75"/>
+  <path class="link" d="M486 128 H536"/>
+  <path class="link flow" d="M486 128 H536" stroke="#4C5A75"/>
+  <path class="link" d="M696 128 H736 V272 H81 V156" stroke="#252F42"/>
+  <path class="link flow" d="M696 128 H736 V272 H81 V156" stroke="#3C6B52"/>
+  <path class="link" d="M421 200 V162" stroke="#24402F" stroke-dasharray="3 5"/>
+  <path class="link flow" d="M421 200 V162" stroke="#3C6B52"/>
+  <g fill="#5D6D8B">
+    <path d="M176 128 l-7 -4 v8 z"/>
+    <path d="M356 128 l-7 -4 v8 z"/>
+    <path d="M536 128 l-7 -4 v8 z"/>
+  </g>
+  <path d="M81 156 l-4 7 h8 z" fill="#3C6B52"/>
+  <path d="M421 162 l-4 6 h8 z" fill="#3C6B52"/>
+</g>
+
+<!-- pulses: behind nodes so they appear to enter and exit each stage -->
+<g transform="translate(126,128)">
+  <g class="req">
+    <path d="M0 0 L-54 -2.8 L-54 2.8 Z" fill="url(#tail)"/>
+    <circle r="17" fill="url(#pReq)"/>
+    <circle r="7" fill="none" stroke="#38BDF8" stroke-width="1" opacity=".5"/>
+    <circle r="3.8" fill="#EAF7FF"/>
+  </g>
+</g>
+<g transform="translate(696,128)">
+  <g class="res">
+    <circle r="14" fill="url(#pRes)"/>
+    <circle r="6" fill="none" stroke="#4ADE80" stroke-width="1" opacity=".4"/>
+    <circle r="3.2" fill="#ECFDF3"/>
+  </g>
+</g>
+
+<!-- nodes -->
+<g class="m">
+  <!-- CLIENT -->
+  <rect class="node" x="36" y="100" width="90" height="56" rx="10"/>
+  <g class="glow g1">
+    <rect x="36" y="100" width="90" height="56" rx="10" fill="#A78BFA" opacity=".09"/>
+    <rect x="36" y="100" width="90" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="1.6" filter="url(#bloom)"/>
+    <rect x="36" y="100" width="90" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  </g>
+  <text x="81" y="124" class="ttl" text-anchor="middle">CLIENT</text>
+  <text x="81" y="139" class="sub" text-anchor="middle">web · widget</text>
+
+  <!-- EDGE API -->
+  <rect class="node" x="176" y="94" width="130" height="68" rx="10"/>
+  <g class="glow g2">
+    <rect x="176" y="94" width="130" height="68" rx="10" fill="#A78BFA" opacity=".09"/>
+    <rect x="176" y="94" width="130" height="68" rx="10" fill="none" stroke="#A78BFA" stroke-width="1.6" filter="url(#bloom)"/>
+    <rect x="176" y="94" width="130" height="68" rx="10" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  </g>
+  <text x="241" y="122" class="ttl" text-anchor="middle">EDGE API</text>
+  <text x="241" y="137" class="sub" text-anchor="middle">Hono · tRPC · RBAC</text>
+  <text x="241" y="150" class="sub" text-anchor="middle" fill="#5A6780">per-tenant quotas</text>
+
+  <!-- RAG -->
+  <rect class="node" x="356" y="94" width="130" height="68" rx="10"/>
+  <g class="glow g3">
+    <rect x="356" y="94" width="130" height="68" rx="10" fill="#A78BFA" opacity=".09"/>
+    <rect x="356" y="94" width="130" height="68" rx="10" fill="none" stroke="#A78BFA" stroke-width="1.6" filter="url(#bloom)"/>
+    <rect x="356" y="94" width="130" height="68" rx="10" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  </g>
+  <text x="421" y="122" class="ttl" text-anchor="middle">RAG PIPELINE</text>
+  <text x="421" y="137" class="sub" text-anchor="middle">pgvector · embeddings</text>
+  <text x="421" y="150" class="sub" text-anchor="middle" fill="#5A6780">semantic chunking</text>
+
+  <!-- LLM ROUTER -->
+  <rect class="node" x="536" y="78" width="160" height="100" rx="10"/>
+  <g class="glow g5">
+    <rect x="536" y="78" width="160" height="100" rx="10" fill="#A78BFA" opacity=".09"/>
+    <rect x="536" y="78" width="160" height="100" rx="10" fill="none" stroke="#A78BFA" stroke-width="1.6" filter="url(#bloom)"/>
+    <rect x="536" y="78" width="160" height="100" rx="10" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  </g>
+  <text x="616" y="99" class="ttl" text-anchor="middle">LLM ROUTER</text>
+  <text x="616" y="112" class="sub" text-anchor="middle">OpenRouter · failover</text>
+  <line x1="552" y1="120" x2="680" y2="120" stroke="#1F2839" stroke-width="1"/>
+  <g class="p1"><circle cx="562" cy="131" r="2.8" fill="#A78BFA"/><text x="576" y="134" class="prv">OpenAI</text></g>
+  <g class="p2"><circle cx="562" cy="148" r="2.8" fill="#A78BFA"/><text x="576" y="151" class="prv">Anthropic</text></g>
+  <g class="p3"><circle cx="562" cy="165" r="2.8" fill="#A78BFA"/><text x="576" y="168" class="prv">Groq</text></g>
+
+  <!-- SEMANTIC CACHE -->
+  <rect class="node" x="356" y="200" width="130" height="42" rx="9"/>
+  <g class="glow g4">
+    <rect x="356" y="200" width="130" height="42" rx="9" fill="#4ADE80" opacity=".08"/>
+    <rect x="356" y="200" width="130" height="42" rx="9" fill="none" stroke="#4ADE80" stroke-width="1.5" filter="url(#bloom)"/>
+    <rect x="356" y="200" width="130" height="42" rx="9" fill="none" stroke="#4ADE80" stroke-width="1"/>
+  </g>
+  <text x="421" y="217" class="sub" text-anchor="middle" fill="#A9B6C9">SEMANTIC CACHE</text>
+  <text x="421" y="231" class="sub" text-anchor="middle" fill="#5A6780">context reuse</text>
+  <g class="glow g4">
+    <rect x="440" y="192" width="32" height="16" rx="5" fill="#0E1A14" stroke="#4ADE80" stroke-width=".9"/>
+    <text x="456" y="203" class="sub" text-anchor="middle" fill="#6EE7A0" font-weight="700">HIT</text>
+  </g>
+
+  <text x="410" y="266" class="lbl" fill="#4E7A61">RESPONSE</text>
+
+  <text x="556" y="215" class="sub" fill="#7C89A0">300+ projects orchestrated</text>
+  <text x="556" y="230" class="sub" fill="#5A6780">~68% margin · 0 divergences</text>
+  <rect x="544" y="203" width="1.4" height="34" rx="1" fill="#A78BFA" opacity=".5"/>
+</g>
+
+<!-- verified metrics -->
+<g class="m">
+  <text x="36" y="308" class="lbl">AI LATENCY</text>
+  <rect x="140" y="300" width="180" height="8" rx="4" fill="#161D2B"/>
+  <rect class="bar b1" x="140" y="300" width="119" height="8" rx="4" fill="url(#barG)"/>
+  <text x="332" y="308" class="val">-66%</text>
+
+  <text x="452" y="308" class="lbl">AI COST</text>
+  <rect x="536" y="300" width="180" height="8" rx="4" fill="#161D2B"/>
+  <rect class="bar b2" x="536" y="300" width="119" height="8" rx="4" fill="url(#barG)"/>
+  <text x="728" y="308" class="val">-66%</text>
+</g>
+</svg>
