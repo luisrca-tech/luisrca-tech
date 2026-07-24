@@ -2,7 +2,7 @@
   <img
     src="https://raw.githubusercontent.com/luisrca-tech/luisrca-tech/main/assets/pipeline.svg"
     width="100%"
-    alt="Production request pipeline: a request flows from client to a Hono edge API, into a RAG pipeline on pgvector with a semantic cache, out to a multi-provider LLM router (OpenAI, Anthropic, Groq) and back to the client. AI latency and cost both reduced 66%. 300+ projects orchestrated at ~68% margin."
+    alt="Production request pipeline: a request flows from client to a Hono edge API, into a RAG pipeline on pgvector with a semantic cache, out to a multi-provider LLM router (OpenAI, Anthropic, AI SDK) and back to the client. AI latency and cost both reduced 66%. 300+ projects orchestrated at ~68% margin."
   >
 </p>
 
@@ -58,7 +58,7 @@ More at **[luisrca-tech.vercel.app](https://luisrca-tech.vercel.app/)**.
 | **Frontend** | `Next.js` `React 19` `Astro` `TailwindCSS` `shadcn/ui` `Radix` `TanStack` |
 | **Backend** | `Node.js` `NestJS` `Hono` `tRPC` `FastAPI` `WebSocket` `gRPC` `Redis` `RabbitMQ` |
 | **Data** | `PostgreSQL` `pgvector` `Drizzle` `Prisma` `Supabase` `Zod` |
-| **AI** | `RAG` `Multi-LLM orchestration` `LangChain` `LangGraph` `OpenAI` `OpenRouter` `Groq` `Vector embeddings` `Semantic caching` |
+| **AI** | `RAG` `Multi-LLM orchestration` `AI SDK` `LangChain` `LangGraph` `OpenAI` `OpenRouter` `Groq` `Vector embeddings` `Semantic caching` |
 | **Platform** | `Docker` `Turborepo` `Bun` `AWS` `Cloudflare Workers` `Vercel` `CI/CD` `Sentry` `PostHog` |
 | **Testing** | `TDD` `Vitest` `Jest` `Playwright` `Pytest` |
 

@@ -180,7 +180,7 @@
   <line x1="552" y1="120" x2="680" y2="120" stroke="#1F2839" stroke-width="1"/>
   <g class="p1"><circle cx="562" cy="131" r="2.8" fill="#A78BFA"/><text x="576" y="134" class="prv">OpenAI</text></g>
   <g class="p2"><circle cx="562" cy="148" r="2.8" fill="#A78BFA"/><text x="576" y="151" class="prv">Anthropic</text></g>
-  <g class="p3"><circle cx="562" cy="165" r="2.8" fill="#A78BFA"/><text x="576" y="168" class="prv">Groq</text></g>
+  <g class="p3"><circle cx="562" cy="165" r="2.8" fill="#A78BFA"/><text x="576" y="168" class="prv">AI SDK</text></g>
 
   <!-- SEMANTIC CACHE -->
   <rect class="node" x="356" y="200" width="130" height="42" rx="9"/>
